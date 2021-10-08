@@ -116,11 +116,6 @@ Industry Experience {data-icon=suitcase}
 CV %<>% print_section('industry_positions')
 ```
 
-<!-- These breaks just force a new page so section doesnt get cut off -->
-<br>
-<br>
-<br>
-
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
@@ -128,6 +123,18 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
+Selected Code Repositories {data-icon=terminal}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('code_repositories')
+```
+
+:::aside
+```{r}
+CV %<>% print_text_block('code_repositories_aside')
+```
+:::
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
