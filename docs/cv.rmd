@@ -52,13 +52,13 @@ datadrivencv::build_network_logo(CV$entries_data)
 ```
 
 
-```{r}
+<!-- ```{r}
 if(params$pdf_mode){
   cat("View this CV online with links at https://goldbergdata.github.io/cv")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/GoldbergData/cv/raw/main/docs/goldberg_cv.pdf)")
 }
-```
+``` -->
 
 Contact {#contact}
 --------------------------------------------------------------------------------
